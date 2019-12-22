@@ -8,6 +8,7 @@ html{
   }
 }
 
+
 #container{
   display:flex;
 }
@@ -16,35 +17,42 @@ html{
   color:white;
   background-color:  #333333;
   max-width: 20%;
+  font-family: 'Arimo', sans-serif;
 }
 
 #left-image{
-  display:flex;
-  flex-direction: column;
+ 
+  text-align: center;
 }
 
 #left-contact{
-  display:flex;
-  flex-direction: column;
+  border: 1px solid white;
+}
+
+#left-langues{
+  border: 1px solid white;
+}
+
+#left-interet{
+  border: 1px solid white;
 }
 
 #right{
-  background-color: pink;
+  background-color: #DCEDC8;
+  font-family: 'Arimo', sans-serif;
+  margin-left: 20px;
 }
 
 #right-experience{
-  display:flex;
-  flex-direction: column;
+  border: 1px solid white;
 }
 
 #right-formation{
-  display:flex;
-  flex-direction: column;
+  border: 1px solid white;
 }
 
-#right-other{
-  display:flex;
-  flex-direction: column;
+#right-projets{
+  border: 1px solid white;
 }
 
 #photo{
@@ -53,7 +61,7 @@ html{
   width: 10rem;
 }
 
-hr {
+hr { 
     display: block;
     height: 5px;
     border: 0;
@@ -61,4 +69,17 @@ hr {
     margin: 1em 0;
     padding: 10px;
     color: white;
+}
+
+header{
+  text-align: center;
+  padding: 70px;
+}
+
+.h1{
+  font-size: 2rem;
+}
+
+.h2{
+  font-size: 1.5rem;
 }
