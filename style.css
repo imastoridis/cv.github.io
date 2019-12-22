@@ -4,17 +4,16 @@ html{
 }
 
 @media ( min-width : 480px ) { /*tablets*/
-   #left{
-    min-width: 240px;
+   #left{   
     background-color:  #333333;
-    padding-right: 17%;
+    padding-right: 14%;
   }
 }
 
 @media ( min-width : 768px ) { /*tablets*/
    #left{
-    min-width: 240px;
     background-color:  #333333;
+    padding-right: 14%;
   }
 }
 
@@ -26,7 +25,7 @@ html{
 
 @media ( min-width : 1200px ) { /*desktops*/
    #left{
-    margin-right: 0px;
+    
   }
 }
 
@@ -37,14 +36,15 @@ html{
 #left{
   color:white;
   background-color:  #333333;
-  min-width: 10%;
+  max-width: 13%;
   font-family: 'Arimo', sans-serif;
 }
 
 #left-image{
-  padding: 35px;
+  size: auto;
   text-align: center;
 }
+
 
 #left-contact{
 
@@ -78,8 +78,8 @@ html{
 
 #photo{
   border-radius:50%;
-  height:10rem;
-  width: 10rem;
+  max-height:10rem;
+  max-width: 10rem;
 }
 
 hr { 
