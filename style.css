@@ -19,6 +19,7 @@ html{
 #left-image{
   size: auto;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 
@@ -68,6 +69,8 @@ hr {
 }
 
 header{
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 
 }
@@ -92,54 +95,52 @@ header{
 
 
 @media ( min-width : 480px ) { /*tablets*/
-   #left{   
-    background-color:  #333333;
-    
-    font-size: ;
-  }
-     #right, .h2, .h3{
-    font-size: ;
-  }
-  li{
-    margin-left: -20px;
-  }
+
 }
 
 @media ( min-width : 768px ) { /*tablets*/
-   #left{
-    background-color:  #333333;
-    padding-right: 14%;
+  #left{
     font-size: ;
   }
-   #right,.h2, .h3{
-    font-size: ;
+  .h1{
+    font-size: 1.4rem ;
   }
-  li{
-    margin-left: -20px;
+  .h2{
+    font-size: 1.2rem ;
+  }
+  .h3{
+    font-size: 1rem ;
+  }
+  .p{
+    font-size: 0.8rem ;
+  }
+  .container{
+    text-align: center;
   }
 }
 
 @media ( min-width : 992px ) { /*desktops*/
-   #left{
-    font-size: ;
-  }
-    #right, .h2, .h3{
-    font-size: ;
-  }
-  li{
-    margin-left: 0px;
-  }
-}
 
+  .h1{
+    font-size: 1.6rem ;
+  }
+  .h2{
+    font-size: 1.4rem ;
+  }
+  .h3{
+    font-size: 1.2rem ;
+  }
+  .p{
+    font-size: 1rem ;
+  }
+  .container{
+    text-align: center;
+  }
 }
 
 @media ( min-width : 1200px ) { /*desktops*/
    #left{
     
   }
-  li{
-    margin-left: 0px;
-  }
-}
 }
 
