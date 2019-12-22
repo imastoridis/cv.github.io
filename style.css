@@ -1,0 +1,64 @@
+html{
+  font-size: 100%;
+}
+
+@media screen and (min-width: 50em){
+  html { 
+  font-size: 1vw;
+  }
+}
+
+#container{
+  display:flex;
+}
+
+#left{
+  color:white;
+  background-color:  #333333;
+  max-width: 20%;
+}
+
+#left-image{
+  display:flex;
+  flex-direction: column;
+}
+
+#left-contact{
+  display:flex;
+  flex-direction: column;
+}
+
+#right{
+  background-color: pink;
+}
+
+#right-experience{
+  display:flex;
+  flex-direction: column;
+}
+
+#right-formation{
+  display:flex;
+  flex-direction: column;
+}
+
+#right-other{
+  display:flex;
+  flex-direction: column;
+}
+
+#photo{
+  border-radius:50%;
+  height:10rem;
+  width: 10rem;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 10px;
+    color: white;
+}
