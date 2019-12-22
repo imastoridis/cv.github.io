@@ -11,9 +11,9 @@ html{
 #left{
   color:white;
   background-color:  #333333;
-  max-width: 13%;
+  width: auto;
   font-family: 'Arimo', sans-serif;
-  padding-right: 100px;
+ 
 }
 
 #left-image{
@@ -38,7 +38,7 @@ html{
 #right{
   background-color: #DCEDC8;
   font-family: 'Arimo', sans-serif;
-  max-width: 80%;
+  width: auto;
 }
 
 #right-experience{
@@ -95,12 +95,18 @@ header{
 
 
 @media ( min-width : 480px ) { /*tablets*/
-
+  #container{
+    margin:  auto;
+    width: 100%;
+  }
 }
 
 @media ( min-width : 768px ) { /*tablets*/
   #left{
-    font-size: ;
+    width: auto;
+  }
+  #right{
+    width: auto;
   }
   .h1{
     font-size: 1.2rem ;
@@ -114,8 +120,9 @@ header{
   .p{
     font-size: 0.6rem ;
   }
-  .container{
-    text-align: center;
+  #container{
+    margin:  auto;
+    max-width: 768px;
   }
 }
 
@@ -133,8 +140,9 @@ header{
   .p{
     font-size: 1rem ;
   }
-  .container{
-    text-align: center;
+  #container{
+    margin:  auto;
+    max-width: 960px;
   }
 }
 
@@ -142,5 +150,8 @@ header{
    #left{
     
   }
+  #container{
+    margin:  auto;
+    max-width: 1200px;
+  }
 }
-
