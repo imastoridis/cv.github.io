@@ -4,8 +4,10 @@ html{
 }
 
 
-#container{
-  display:flex;
+
+
+.fas_fa-at{
+
 }
 
 #left{
@@ -24,21 +26,24 @@ html{
 
 
 #left-contact{
+  padding-top: 45px;
+  padding-bottom: 45px;
 
 }
 
 #left-langues{
-
+  padding-bottom: 45px;
 }
 
 #left-interet{
-
+  padding-bottom: 45px;
 }
 
 #right{
   background-color: #DCEDC8;
   font-family: 'Arimo', sans-serif;
   width: auto;
+  padding-left: 40px;
 }
 
 #right-experience{
@@ -63,6 +68,7 @@ html{
   display: block;
   border-top: 1px solid black;
   max-width: 90%;
+
 }
 
 .hr-white{
@@ -145,8 +151,16 @@ header{
   border-radius:50%;
   height:8rem;
   width: 8rem;
+  }
+  #container{
+  display:flex;
+  }
+   .b{
+  display: inline-block;
+  width: 250px;
+  }
 }
-}
+  
 
 @media ( min-width : 992px ) { /*desktops*/
 
@@ -177,7 +191,14 @@ header{
   border-radius:50%;
   height:10rem;
   width: 10rem;
+  }
+   #container{
+  display:flex;
+  }
+ 
+.b{
+  display: inline-block;
+  width: 250px;
+  }
 }
-}
-
 
