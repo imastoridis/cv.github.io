@@ -106,7 +106,7 @@ header{
 }
 
 
-@media ( min-width : 375px ) { /*smartphones*/
+@media (min-width:320px)  { /*smartphones*/
   #container{
     margin:  auto;
     width: 100%;
@@ -143,27 +143,35 @@ header{
   #left-contact{
     padding-top: 25px;
     text-align: justify;
-    margin: 0 auto;
+    margin: 0 ;
+    margin-left: 31%;
+    margin-right:auto;
     width: 45%;
+
   }
   #left-langues{
     padding-top: 25px;
     text-align: justify;
-    margin: 0 auto;
+    margin: 0 ;
+    margin-left: 35%;
+    margin-right:auto;
     width: 35%;
   }
     #left-interet{
     padding-top: 25px;
     text-align: justify;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 35%;
+    margin-right:auto;
     width: 35%;
   }
+
   #left-github{
     padding-top: 25px;
   }
 
   .hr-white{
-    max-width: 30%;
+    max-width: 50%;
   }
   .projects-box{
     color: black;
@@ -228,7 +236,8 @@ header{
     padding-top: 125px;
     padding-bottom: 45px;
     text-align: justify;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right:auto;
     width: 100%;
   }
   #left-langues{
@@ -246,13 +255,13 @@ header{
     width: 100%;
   }
   #left{
-    max-width: 45%;
+    max-width: 50%;
   }
    .ul-left{
     margin-left:20%;
   }
   .ul-left-c{
-    margin-left:10%;
+    margin-left:20%;
   }
   .hr-white{
     max-width: 45%;
@@ -308,7 +317,8 @@ header{
     padding-top: 115px;
     padding-bottom: 45px;
     text-align: justify;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right:auto;
     width: 100%;
   }
   #left-langues{
