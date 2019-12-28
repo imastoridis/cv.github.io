@@ -4,10 +4,18 @@ html{
 }
 
 
+a.class1,
+a.class1:visited,
+a.class1:active
+a.class1:hover {
+  color:#DCEDC8;
+}
 
-
-.fas_fa-at{
-
+a.class2,
+a.class2:visited,
+a.class2:active
+a.class2:hover {
+  color:  #404040;
 }
 
 #left{
@@ -15,7 +23,6 @@ html{
   background-color:  #333333;
   width: auto;
   font-family: 'Arimo', sans-serif;
- 
 }
 
 #left-image{
@@ -24,19 +31,8 @@ html{
   padding-bottom: 60px;
 }
 
-
-#left-contact{
-  padding-top: 45px;
-  padding-bottom: 45px;
-
-}
-
-#left-langues{
-  padding-bottom: 45px;
-}
-
-#left-interet{
-  padding-bottom: 45px;
+#left-github{
+  text-align: center;
 }
 
 #right{
@@ -44,18 +40,41 @@ html{
   font-family: 'Arimo', sans-serif;
   width: auto;
   padding-left: 40px;
-}
-
-#right-experience{
-
+  padding-bottom: 150px;
+  padding-right: 50px;
 }
 
 #right-formation{
-
+  margin-top: 35px;
 }
 
 #right-projets{
+  margin-top: 35px
+}
 
+ #right-experience{
+      padding-top: 45px;
+}
+
+#projects-box{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-box{
+  color: black;
+  border: 1px solid black;
+  height: 5rem;
+  width: 15rem;
+  padding:15px;
+  background-color: white;
+  text-align: center;
+  margin-left: -30px;
+}
+
+.s{
+  margin-top: 14px;
 }
 
 #photo{
@@ -67,32 +86,34 @@ html{
 .hr-black { 
   display: block;
   border-top: 1px solid black;
-  max-width: 90%;
-
+  max-width: 95%;
+  margin-left: 0px;
 }
 
 .hr-white{
   display: block;
   border-top: 1px solid white;
-  max-width: 50%;
-  max-width: 90%;
+  max-width: 75%;
 }
 
 header{
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom:80px;
   text-align: center;
-
+  background-color:  #333333;
+  margin-left: -40px;
+  margin-right: -50px;
 }
 
 .h1{
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
 .h2{
   font-size: 0.7rem;
   font-weight: bold;
+  color: #333333;
 }
 
 .h3{
@@ -104,7 +125,7 @@ header{
 }
 
 
-@media ( min-width : 480px ) { /*tablets*/
+@media ( min-width : 480px ) { /*smartphones*/
   #container{
     margin:  auto;
     width: 100%;
@@ -114,10 +135,48 @@ header{
     text-align: center;
   }
   #photo{
-  border-radius:50%;
-  height:5rem;
-  width: 5rem;
-}
+    border-radius:50%;
+    height:5rem;
+    width: 5rem;
+  }
+  #photo{
+    margin-top: 40px;
+    margin-bottom: -60px;
+    border-radius:50%;
+    height:10rem;
+    width: 10rem;
+  }
+  #left-contact{
+    padding-top: 25px;
+  }
+  #left{
+    text-align: left;
+  }
+  .ul-left{
+    margin-left: 130px;
+  }
+  .hr-white{
+    max-width: 30%;
+  }
+  #left-github{
+    padding-top: 25px;
+  }
+  .projects-box{
+  color: black;
+  border: 1px solid black;
+  height: 5rem;
+  width: 12rem;
+  padding:15px;
+  background-color: white;
+  text-align: center;
+  margin-left: -30px;
+  }
+  .name{
+    font-size: 1.8rem;
+    padding-top: 40px;
+    color: white;
+    font-family: ADAM.CG PRO;
+  }   
 }
 
 @media ( min-width : 768px ) { /*tablets*/
@@ -131,10 +190,10 @@ header{
     font-size: 1.2rem ;
   }
   .h2{
-    font-size: 1rem ;
+    font-size: 0.9rem ;
   }
   .h3{
-    font-size: 0.8rem ;
+    font-size: 0.7rem ;
   }
   .p{
     font-size: 0.6rem ;
@@ -159,6 +218,23 @@ header{
   display: inline-block;
   width: 250px;
   }
+  .name{
+    font-size: 2.4rem;
+    padding-top: 40px;
+    color: white;
+    font-family: ADAM.CG PRO;
+  }   
+  #left-contact{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  }
+  #left-langues{
+  padding-bottom: 45px;
+  }
+
+  #left-interet{
+  padding-bottom: 45px;
+  }
 }
   
 
@@ -168,10 +244,10 @@ header{
     font-size: 1.6rem ;
   }
   .h2{
-    font-size: 1.4rem ;
+    font-size: 1.3rem ;
   }
   .h3{
-    font-size: 1.2rem ;
+    font-size: 1.1rem ;
   }
   .p{
     font-size: 1rem ;
@@ -182,23 +258,60 @@ header{
   }
   #container{
     margin:  auto;
-    max-width: 1200px;
-  }
-  #left{
-    padding: 50px;
+    max-width: 1300px;
   }
   #photo{
   border-radius:50%;
   height:10rem;
   width: 10rem;
   }
-   #container{
-  display:flex;
+  #container{
+    display:flex;
   }
- 
-.b{
-  display: inline-block;
-  width: 250px;
+  .b{ /*to erase?? */
+    display: inline-block;
+    width: 250px;
+    font-size: 1rem;
   }
+  .name{
+    font-size: 2.8rem;
+    padding-top: 40px;
+    color: white;
+    font-family: ADAM.CG PRO;
+  }   
+  #left-contact{
+    padding-top: 115px;
+    padding-bottom: 45px;
+  }
+  #left-langues{
+    padding-bottom: 45px;
+  }
+  #left-interet{
+    padding-bottom: 45px;
+  }
+  .hr-white{
+    max-width: 45%;
+  }
+  header{
+  padding-top: 50px;
+  padding-bottom:80px;
+  text-align: center;
+  background-color:  #333333;
+  margin-left: -40px;
+  margin-right: -50px;
+  }
+  #left{
+    max-width: 35%;
+  }
+  .projects-box{
+  color: black;
+  border: 1px solid black;
+  height: 5rem;
+  width: 15rem;
+  padding:15px;
+  background-color: white;
+  text-align: center;
+  margin-left: -30px;
+}
 }
 
