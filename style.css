@@ -102,7 +102,7 @@ header{
 .hr-white{
   display: block;
   border-top: 1px solid white;
-  max-width: 75%;
+  max-width: 100%;
 }
 
 
@@ -142,36 +142,41 @@ header{
   }
   #left-contact{
     padding-top: 25px;
-    text-align: justify;
-    margin: 0 ;
-    margin-left: 31%;
-    margin-right:auto;
-    width: 45%;
-
+    width: 100%;
+    height: 150px; 
   }
   #left-langues{
     padding-top: 25px;
-    text-align: justify;
-    margin: 0 ;
-    margin-left: 35%;
-    margin-right:auto;
-    width: 35%;
+    width: 100%;
+    height: 150px;
   }
     #left-interet{
     padding-top: 25px;
-    text-align: justify;
-    margin: 0;
-    margin-left: 35%;
-    margin-right:auto;
-    width: 35%;
+    width: 100%;
+    height: 150px;
   }
-
+  .ul-left-c{
+    text-align: center;
+  }
+  .ul-left-align{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  .ul-left-align2{
+    height: 60px;
+    width: 100px;
+    position: relative;
+    text-align: justify;
+    margin: 0 auto;
+  }
   #left-github{
     padding-top: 25px;
   }
-
   .hr-white{
-    max-width: 50%;
+    width: 10rem;
   }
   .projects-box{
     color: black;
@@ -219,12 +224,12 @@ header{
     max-width: 768px;
   }
   #photo{
-  border-radius:50%;
-  height:8rem;
-  width: 8rem;
+    border-radius:50%;
+    height:8rem;
+    width: 8rem;
   }
   #container{
-  display:flex;
+    display:flex;
   }
   .name{
     font-size: 2.4rem;
@@ -234,37 +239,41 @@ header{
   }   
   #left-contact{
     padding-top: 125px;
-    padding-bottom: 45px;
-    text-align: justify;
-    margin-left: 0;
-    margin-right:auto;
     width: 100%;
+    height: 150px; 
   }
   #left-langues{
-    padding-bottom: 45px;
-    padding-top: 25px;
-    text-align: justify;
-    margin: 0 auto;
+    padding-top: 125px;
     width: 100%;
+    height: 150px;
   }
-  #left-interet{
-    padding-bottom: 45px;
-    padding-top: 25px;
-    text-align: justify;
-    margin: 0 auto;
+    #left-interet{
+    padding-top:125px;
     width: 100%;
-  }
-  #left{
-    max-width: 50%;
-  }
-   .ul-left{
-    margin-left:20%;
+    height: 150px;
   }
   .ul-left-c{
-    margin-left:20%;
+    text-align: center;
+  }
+  .ul-left-align{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  .ul-left-align2{
+    height: 60px;
+    width: 100px;
+    position: relative;
+    text-align: justify;
+    margin: 0 auto;
   }
   .hr-white{
     max-width: 45%;
+  }
+  #left-github{
+    padding-top: 145px;
   }
 }
   
@@ -315,34 +324,54 @@ header{
   }
   #left-contact{
     padding-top: 115px;
-    padding-bottom: 45px;
-    text-align: justify;
-    margin-left: 0;
-    margin-right:auto;
     width: 100%;
+    height: 150px; 
   }
   #left-langues{
-    padding-bottom: 45px;
-    padding-top: 25px;
-    text-align: justify;
-    margin: 0 auto;
+    padding-top: 185px;
     width: 100%;
+    height: 150px;
   }
   #left-interet{
-    padding-bottom: 45px;
-    padding-top: 25px;
-    text-align: justify;
-    margin: 0 auto;
+    padding-top:215px;
     width: 100%;
+    height: 150px;
   }
   .ul-left{
-    margin-left:20%;
+    margin-left: 30px;
   }
-  .ul-left-c{
-    margin-left:10%;
+
+  .ul-left-align{
+    height: 100px;
+    width: 220px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ul-left-align2{
+    height: 60px;
+    width: 150px;
+    position: relative;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  .ul-left-align3{
+    height: 60px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #left-github{
+    padding-top: 215px;
+  }
+  .at{
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
   }
   .hr-white{
-    max-width: 45%;
+    width: 45%;
   }
   header{
     padding-top: 50px;
