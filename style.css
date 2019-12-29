@@ -71,17 +71,6 @@ header{
   justify-content: space-around;
 }
 
-.projects-box{
-  color: black;
-  border: 1px solid black;
-  height: 5rem;
-  width: 15rem;
-  padding:15px;
-  background-color: white;
-  text-align: center;
-  margin-left: -30px;
-}
-
 .boxalign{
   margin-top: 14px;
 }
@@ -182,11 +171,11 @@ header{
     color: black;
     border: 1px solid black;
     height: 5rem;
-    width: 12rem;
-    padding:15px;
+    width: 11rem;
+    padding:10px;
     background-color: white;
     text-align: center;
-    margin-left: -30px;
+    margin-left: ;
   }
   .name{
     font-size: 1.8rem;
@@ -320,7 +309,7 @@ header{
     font-family: ADAM.CG PRO;
   }   
   #left{
-    width: 25%;
+    width: 28%;
   }
   #left-contact{
     padding-top: 115px;
