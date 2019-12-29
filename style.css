@@ -72,7 +72,7 @@ header{
 }
 
 .boxalign{
-  margin-top: 14px;
+    margin-top: 14px;
 }
 
 #photo{
@@ -171,7 +171,7 @@ header{
     color: black;
     border: 1px solid black;
     height: 5rem;
-    width: 11rem;
+    width: 10rem;
     padding:10px;
     background-color: white;
     text-align: center;
