@@ -45,7 +45,7 @@ header{
 }
 
 #right{
-  background-color: #DCEDC8;
+  background-color: #AED581;
   font-family: 'Arimo', sans-serif;
   width: auto;
   padding-left: 40px;
@@ -291,8 +291,9 @@ header{
   }
   #photo{
     border-radius:50%;
-    height:10rem;
+    height: 10rem;
     width: 10rem;
+    
   }
   #container{
     display:flex;
@@ -307,6 +308,7 @@ header{
   #left{
     width: 28%;
   }
+  
   #left-contact{
     padding-top: 115px;
     width: 100%;
