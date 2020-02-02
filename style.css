@@ -123,6 +123,12 @@ a.image2 {
     padding: 2em;
 }
 
+.p-apropos{
+  width: 100%;
+  padding-right: 2em;
+  text-align: justify;
+}
+
 @media (min-width:320px)  { /*smartphones*/
   #container{
     margin:  auto;
@@ -197,6 +203,9 @@ a.image2 {
       height:4rem; /*height of your image*/
       padding: 1em;
   }
+  .p-apropos{
+    font-size: 0.7rem;
+  }
 }
 
 @media ( min-width : 768px ) { /*tablets*/
@@ -252,6 +261,10 @@ a.image2 {
     padding-top: 80px;
     padding-bottom: 70px;
   }
+
+  .p-apropos{
+    font-size: 1rem;
+  }
 }
   
 
@@ -271,6 +284,10 @@ a.image2 {
   }
   .p{
     font-size: 1vw ;
+  }
+
+   .p-apropos{
+    font-size: 0.9vw;
   }
   .sidebar{
     font-size: 1.4vw ;
@@ -329,7 +346,7 @@ a.image2 {
     margin: 0 auto;
   }
   #left-github{
-    padding-top: 50px;
+    padding-top: 130px;
   }
   .at{
     width: 45px;
@@ -354,5 +371,6 @@ a.image2 {
       border : 1px solid black;
       padding: 2em;
   }
+
 }
 
