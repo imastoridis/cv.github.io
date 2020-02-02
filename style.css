@@ -15,23 +15,29 @@ a.class2,
 a.class2:visited,
 a.class2:active
 a.class2:hover {
-  color:  #404040;
+  color:  #49A2D5;
 }
 
 header{
   padding-top: 50px;
-  padding-bottom:80px;
+  padding-bottom:50px;
   text-align: center;
-  background-color:  #333333;
+  background-color: white;
   margin-left: -40px;
   margin-right: -50px;
 }
 
+.name{
+    color: #333333;
+    font-family: monserrat;
+    font-weight: bold;
+}   
+
 #left{
   color:white;
-  background-color:  #333333;
+  background-color:  #49A2D5;
   width: auto;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'monserrat', sans-serif;
 }
 
 #left-image{
@@ -44,9 +50,22 @@ header{
   text-align: center;
 }
 
+#left-contact{
+    width: 100%;
+    height: auto; 
+}
+#left-langues{
+    width: 100%;
+    height: auto;
+}
+#left-interet{
+    width: 100%;
+    height: auto;
+}
+
 #right{
-  background-color: #AED581;
-  font-family: 'Arimo', sans-serif;
+  background-color: white;
+  font-family: 'monserrat', sans-serif;
   width: auto;
   padding-left: 40px;
   padding-bottom: 150px;
@@ -61,45 +80,55 @@ header{
   margin-top: 35px
 }
 
-#right-experience{
-  padding-top: 45px;
-}
-
-#projects-box{
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.boxalign{
-    margin-top: 14px;
-}
-
 #photo{
   border-radius:50%;
   height:10rem;
   width: 10rem;
+  border: 2px solid #333333;
 }
 
 .hr-black { 
   display: block;
-  border-top: 1px solid black;
+  border-top: 3px solid #49A2D5;
   max-width: 95%;
   margin-left: 0px;
 }
 
-.hr-white{
-  display: block;
-  border-top: 1px solid white;
-  max-width: 100%;
+.h3 {
+  text-align: left;
 }
 
+.sidebar {
+  border:1px solid #333333;
+  padding: 0.5em;
+  background-color: #333333;
+}
+#projects-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+a.image {
+    content: url(https://i.ibb.co/pzPxNHV/ohmyfood.jpg); 
+    width:14rem; /*width of your image*/
+    height:6rem; /*height of your image*/
+    border : 1px solid black;
+    padding: 0;
+}
+a.image2 {
+    content: url(https://i.ibb.co/QMQ24Rg/minimo.png); 
+    width:14rem; /*width of your image*/
+    height:6rem; /*height of your image*/
+    border : 1px solid black;
+    padding: 2em;
+}
 
 @media (min-width:320px)  { /*smartphones*/
   #container{
     margin:  auto;
     width: 100%;
   }
+
   .h1{
     font-size: 0.8rem;
     font-weight: bold;
@@ -124,34 +153,21 @@ header{
   }
   #photo{
     margin-top: 40px;
-    margin-bottom: -60px;
     border-radius:50%;
     height:10rem;
     width: 10rem;
   }
-  #left-contact{
-    padding-top: 25px;
-    width: 100%;
-    height: 150px; 
-  }
-  #left-langues{
-    padding-top: 25px;
-    width: 100%;
-    height: 150px;
-  }
-    #left-interet{
-    padding-top: 25px;
-    width: 100%;
-    height: 150px;
-  }
+
   .ul-left-c{
     text-align: center;
+    margin-top: 25px;
   }
+
   .ul-left-align{
     height: 60px;
     width: 140px;
     position: relative;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
   }
   .ul-left-align2{
@@ -161,28 +177,24 @@ header{
     text-align: justify;
     margin: 0 auto;
   }
+
   #left-github{
+    padding-bottom: 25px;
     padding-top: 25px;
   }
-  .hr-white{
-    width: 10rem;
-  }
-  .projects-box{
-    color: black;
-    border: 1px solid black;
-    height: 5rem;
-    width: 10rem;
-    padding:10px;
-    background-color: white;
-    text-align: center;
-    margin-left: ;
-  }
+
   .name{
     font-size: 1.8rem;
-    padding-top: 40px;
-    color: white;
-    font-family: ;
   }   
+  a.image {
+      width:10rem; /*width of your image*/
+      height:4rem; /*height of your image*/
+  }
+  a.image2 {
+      width:10rem; /*width of your image*/
+      height:4rem; /*height of your image*/
+      padding: 1em;
+  }
 }
 
 @media ( min-width : 768px ) { /*tablets*/
@@ -210,137 +222,102 @@ header{
   }
   #container{
     margin:  auto;
-    max-width: 768px;
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
   }
   #photo{
     border-radius:50%;
     height:8rem;
     width: 8rem;
   }
-  #container{
-    display:flex;
-  }
   .name{
     font-size: 2.4rem;
-    padding-top: 40px;
-    color: white;
-    font-family: ADAM.CG PRO;
   }   
-  #left-contact{
-    padding-top: 125px;
-    width: 100%;
-    height: 150px; 
-  }
-  #left-langues{
-    padding-top: 125px;
-    width: 100%;
-    height: 150px;
-  }
-    #left-interet{
-    padding-top:125px;
-    width: 100%;
-    height: 150px;
-  }
+ 
   .ul-left-c{
     text-align: center;
   }
   .ul-left-align{
     height: 60px;
     width: 140px;
-    position: relative;
-    text-align: justify;
-    margin: 0 auto;
   }
   .ul-left-align2{
     height: 60px;
     width: 100px;
-    position: relative;
-    text-align: justify;
-    margin: 0 auto;
   }
-  .hr-white{
-    max-width: 45%;
-  }
-  #left-github{
-    padding-top: 145px;
+  header{
+    padding-top: 80px;
+    padding-bottom: 70px;
   }
 }
   
 
 @media ( min-width : 992px ) { /*desktops*/
   .h1{
-    font-size: 1.6rem ;
+    font-size: 1.6vw ;
   }
   .h2{
-    font-size: 1.3rem ;
+    font-size: 1.3vw ;
   }
   .h3{
-    font-size: 1.1rem ;
+    font-size: 1.2vw ;
+  }
+
+  .h4{
+    font-size: 1.1vw 
   }
   .p{
-    font-size: 1rem ;
+    font-size: 1vw ;
   }
   .sidebar{
-    font-size: 1.4rem ;
+    font-size: 1.4vw ;
     text-align: center;
-  }
-  #container{
-    margin:  auto;
-    max-width: 1300px;
-    
-  }
-  #photo{
-    border-radius:50%;
-    height: 10rem;
-    width: 10rem;
-    
+    margin-bottom: 45px;
+    margin-top: 45px;
   }
   #container{
     display:flex;
+    margin:  auto;
+    max-width: 100%;
+    justify-content: center;
   }
- 
+  #photo{
+    border-radius:50%;
+    height: auto;
+    width: 13rem;
+    
+  }
   .name{
     font-size: 2.8rem;
-    padding-top: 40px;
-    color: white;
-    font-family: ADAM.CG PRO;
   }   
   #left{
-    width: 28%;
+    width: 23%;
   }
-  
+  #left-image{
+    margin-top: 50px;
+  }
   #left-contact{
-    padding-top: 115px;
-    width: 100%;
-    height: 150px; 
-  }
-  #left-langues{
-    padding-top: 185px;
-    width: 100%;
-    height: 150px;
-  }
-  #left-interet{
-    padding-top:215px;
-    width: 100%;
-    height: 150px;
+    margin-top: 70px;
   }
   .ul-left{
     margin-left: 30px;
   }
-
-  .ul-left-align{
+  .ul-left-c{
     height: 100px;
-    width: 220px;
+    width: 100%;
+  }
+  .ul-left-align{
+    width: 100%;
+    text-align: left;
     position: relative;
-    text-align: center;
-    margin: 0 auto;
+    float: left;
   }
   .ul-left-align2{
     height: 60px;
-    width: 150px;
+    width: 100%;
     position: relative;
-    text-align: justify;
-    margin: 0 auto;
+    float: left;
   }
   .ul-left-align3{
     height: 60px;
@@ -350,33 +327,30 @@ header{
     margin: 0 auto;
   }
   #left-github{
-    padding-top: 215px;
+    padding-top: 50px;
   }
   .at{
     width: 45px;
     height: 45px;
     margin-left: 12px;
   }
-  .hr-white{
-    width: 45%;
-  }
+
   header{
-    padding-top: 50px;
-    padding-bottom:80px;
-    text-align: center;
-    background-color:  #333333;
-    margin-left: -40px;
-    margin-right: -50px;
+    padding-top: 170px;
+    padding-bottom: 170px;
   }
-  .projects-box{
-    color: black;
-    border: 1px solid black;
-    height: 5rem;
-    width: 15rem;
-    padding:15px;
-    background-color: white;
-    text-align: center;
-    margin-left: -30px;
+  a.image {
+    width:15rem; /*width of your image*/
+    height:6rem; /*height of your image*/
+    border : 1px solid black;
+    padding: 0;
+  }
+  a.image2 {
+      content: url(https://i.ibb.co/QMQ24Rg/minimo.png); 
+      width:15rem; /*width of your image*/
+      height:6rem; /*height of your image*/
+      border : 1px solid black;
+      padding: 2em;
   }
 }
 
