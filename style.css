@@ -125,11 +125,11 @@ a.image2 {
 
 .p-apropos{
   width: 100%;
-  padding-right: 2em;
+  padding-right: 3em;
   text-align: justify;
 }
 
-@media (min-width:320px)  { /*smartphones*/
+@media (min-width:200px)  { /*smartphones*/
   #container{
     margin:  auto;
     width: 100%;
@@ -237,6 +237,10 @@ a.image2 {
     display:flex;
     justify-content: center;
   }
+
+  #left{
+    width: 30%;
+  }
   #photo{
     border-radius:50%;
     height:8rem;
@@ -263,7 +267,7 @@ a.image2 {
   }
 
   .p-apropos{
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
   
