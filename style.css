@@ -1,69 +1,67 @@
-
-html{
+html {
   font-size: 100%;
 }
 
-
-a.class1,
-a.class1:visited,
-a.class1:active
-a.class1:hover {
-  color:#DCEDC8;
+a.class1, a.class1:visited, a.class1:active a.class1:hover {
+  color: #DCEDC8;
 }
 
-a.class2,
-a.class2:visited,
-a.class2:active
-a.class2:hover {
-  color:  #49A2D5;
+a.class2, a.class2:visited, a.class2:active a.class2:hover {
+  color: #49A2D5;
 }
 
-header{
+header {
   padding-top: 50px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: white;
   margin-left: -40px;
   margin-right: -50px;
 }
 
-.name{
-    color: #333333;
-    font-family: monserrat;
-    font-weight: bold;
-}   
+.name {
+  color: #333333;
+  font-family: monserrat;
+  font-weight: bold;
+}
 
-#left{
-  color:white;
-  background-color:  #49A2D5;
+#left {
+  color: white;
+  background-color: #49A2D5;
   width: auto;
   font-family: 'monserrat', sans-serif;
 }
 
-#left-image{
+#left-image {
   size: auto;
   text-align: center;
   padding-bottom: 60px;
 }
 
-#left-github{
+#left-github {
   text-align: center;
 }
 
-#left-contact{
-    width: 100%;
-    height: auto; 
-}
-#left-langues{
-    width: 100%;
-    height: auto;
-}
-#left-interet{
-    width: 100%;
-    height: auto;
+#left-contact {
+  width: 100%;
+  height: auto;
 }
 
-#right{
+#left-langages{
+  width: 100%;
+  height: auto;
+}
+#left-langues {
+  width: 100%;
+  height: auto;
+}
+
+#left-interet {
+  width: 100%;
+  height: auto;
+}
+
+#right {
   background-color: white;
   font-family: 'monserrat', sans-serif;
   width: auto;
@@ -72,22 +70,22 @@ header{
   padding-right: 50px;
 }
 
-#right-formation{
+#right-formation {
   margin-top: 35px;
 }
 
-#right-projets{
+#right-projets {
   margin-top: 35px
 }
 
-#photo{
-  border-radius:50%;
-  height:10rem;
+#photo {
+  border-radius: 50%;
+  height: 10rem;
   width: 10rem;
   border: 2px solid #333333;
 }
 
-.hr-black { 
+.hr-black {
   display: block;
   border-top: 3px solid #49A2D5;
   max-width: 95%;
@@ -99,282 +97,330 @@ header{
 }
 
 .sidebar {
-  border:1px solid #333333;
+  border: 1px solid #333333;
   padding: 0.5em;
   background-color: #333333;
 }
-#projects-box{
+
+#projects-box {
   display: flex;
   justify-content: space-around;
   margin-top: 2em;
 }
+
 a.image {
-    content: url(https://i.ibb.co/pzPxNHV/ohmyfood.jpg); 
-    width:14rem; /*width of your image*/
-    height:6rem; /*height of your image*/
-    border : 1px solid black;
-    padding: 0;
-}
-a.image2 {
-    content: url(https://i.ibb.co/QMQ24Rg/minimo.png); 
-    width:14rem; /*width of your image*/
-    height:6rem; /*height of your image*/
-    border : 1px solid black;
-    padding: 2em;
+  content: url(https://i.ibb.co/pzPxNHV/ohmyfood.jpg);
+  width: 14rem;
+  height: 6rem;
+  border: 1px solid black;
+  padding: 0;
 }
 
-.p-apropos{
+a.image2 {
+  content: url(https://i.ibb.co/XkdjmXc/orinoco.png);
+  width: 14rem;
+  height: 6rem;
+  border: 1px solid black;
+  padding: 0;
+}
+
+a.image3 {
+  content: url(https://i.ibb.co/BKpj2jF/so-pekocko.png);
+  width: 14rem;
+  height: 6rem;
+  border: 1px solid black;
+}
+
+a.image4 {
+  content: url(https://i.ibb.co/NY2H5jW/groupomania.png);
+  width: 14rem;
+  height: 6rem;
+  border: 1px solid black;
+}
+
+.p-apropos {
   width: 100%;
   padding-right: 3em;
   text-align: justify;
 }
 
-@media (min-width:200px)  { /*smartphones*/
-  #container{
-    margin:  auto;
+@media (min-width:200px) {
+  /*smartphones*/
+  #container {
+    margin: auto;
     width: 100%;
   }
-
-  .h1{
+  .h1 {
     font-size: 0.8rem;
     font-weight: bold;
   }
-
-  .h2{
+  .h2 {
     font-size: 0.8rem;
     font-weight: bold;
     color: #333333;
   }
-
-  .h3{
+  .h3 {
     font-size: 0.7rem;
   }
-  .h4{
+  .h4 {
     font-size: 0.7rem;
   }
-  .p{
+  .p {
     font-size: 0.7rem;
   }
-  .sidebar{
-    font-size: 0.7rem ;
+  .sidebar {
+    font-size: 0.7rem;
     text-align: center;
   }
-  #photo{
+  #photo {
     margin-top: 40px;
-    border-radius:50%;
-    height:10rem;
+    border-radius: 50%;
+    height: 10rem;
     width: 10rem;
   }
-
-  .ul-left-c{
+  .ul-left-c {
     text-align: center;
     margin-top: 25px;
   }
-
-  .ul-left-align{
+  .ul-left-align {
     height: 60px;
     width: 140px;
     position: relative;
     text-align: left;
     margin: 0 auto;
   }
-  .ul-left-align2{
+  .ul-left-align2 {
     height: 60px;
     width: 100px;
     position: relative;
     text-align: justify;
     margin: 0 auto;
   }
-
-  #left-github{
+  #left-github {
     padding-bottom: 25px;
     padding-top: 25px;
   }
-
-  .name{
+  .name {
     font-size: 1.8rem;
-  }   
+  }
+
+  #left-langages{
+    margin-bottom: 65px;
+  }
   a.image {
-      width:10rem; /*width of your image*/
-      height:4rem; /*height of your image*/
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 15px;
   }
   a.image2 {
-      width:10rem; /*width of your image*/
-      height:4rem; /*height of your image*/
-      padding: 1em;
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 15px;
   }
-  .p-apropos{
+  a.image3 {
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 15px;
+  }
+  a.image4 {
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 15px;
+  }
+  .p-apropos {
     font-size: 0.7rem;
+  }
+  #projects-box {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
 
-@media ( min-width : 768px ) { /*tablets*/
-  #left{
+@media ( min-width: 768px) {
+  /*tablets*/
+  #left {
     width: auto;
   }
-  #right{
+  #right {
     width: auto;
   }
-  .h1{
-    font-size: 1.2rem ;
+  .h1 {
+    font-size: 1.2rem;
   }
-  .h2{
-    font-size: 0.9rem ;
+  .h2 {
+    font-size: 0.9rem;
   }
-  .h3{
-    font-size: 0.7rem ;
+  .h3 {
+    font-size: 0.7rem;
   }
-  .p{
-    font-size: 0.6rem ;
+  .p {
+    font-size: 0.6rem;
   }
-  .sidebar{
-    font-size: 1rem ;
+  .sidebar {
+    font-size: 1rem;
     text-align: center;
   }
-  #container{
-    margin:  auto;
+  #container {
+    margin: auto;
     max-width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
   }
-
-  #left{
+  #left {
     width: 30%;
   }
-  #photo{
-    border-radius:50%;
-    height:8rem;
+  #photo {
+    border-radius: 50%;
+    height: 8rem;
     width: 8rem;
   }
-  .name{
+  .name {
     font-size: 2.4rem;
-  }   
- 
-  .ul-left-c{
+  }
+  .ul-left-c {
     text-align: center;
   }
-  .ul-left-align{
+  .ul-left-align {
     height: 60px;
     width: 140px;
   }
-  .ul-left-align2{
+  .ul-left-align2 {
     height: 60px;
     width: 100px;
   }
-  header{
+  header {
     padding-top: 80px;
     padding-bottom: 70px;
   }
-
-  .p-apropos{
+  .p-apropos {
     font-size: 0.7rem;
   }
+  #projects-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 15px;
+  }
 }
-  
 
-@media ( min-width : 992px ) { /*desktops*/
-  .h1{
-    font-size: 1.6vw ;
+@media ( min-width: 992px) {
+  /*desktops*/
+  .h1 {
+    font-size: 1.6vw;
   }
-  .h2{
-    font-size: 1.3vw ;
+  .h2 {
+    font-size: 1.3vw;
   }
-  .h3{
-    font-size: 1.2vw ;
+  .h3 {
+    font-size: 1.2vw;
   }
-
-  .h4{
-    font-size: 1.1vw 
+  .h4 {
+    font-size: 1.1vw
   }
-  .p{
-    font-size: 1vw ;
+  .p {
+    font-size: 1vw;
   }
-
-   .p-apropos{
+  .p-apropos {
     font-size: 0.9vw;
   }
-  .sidebar{
-    font-size: 1.4vw ;
+  .sidebar {
+    font-size: 1.4vw;
     text-align: center;
     margin-bottom: 45px;
     margin-top: 45px;
   }
-  #container{
-    display:flex;
-    margin:  auto;
+  #container {
+    display: flex;
+    margin: auto;
     max-width: 100%;
     justify-content: center;
   }
-  #photo{
-    border-radius:50%;
+  #photo {
+    border-radius: 50%;
     height: auto;
     width: 13rem;
-    
   }
-  .name{
+  .name {
     font-size: 2.8rem;
-  }   
-  #left{
+  }
+  #left {
     width: 23%;
   }
-  #left-image{
+  #left-image {
     margin-top: 50px;
   }
-  #left-contact{
+  #left-contact {
     margin-top: 70px;
   }
-  .ul-left{
+  #left-langages{
+    margin-bottom: 90px;
+  }
+  .ul-left {
     margin-left: 30px;
   }
-  .ul-left-c{
+  .ul-left-c {
     height: 100px;
     width: 100%;
   }
-  .ul-left-align{
+  .ul-left-align {
     width: 100%;
     text-align: left;
     position: relative;
     float: left;
   }
-  .ul-left-align2{
+  .ul-left-align2 {
     height: 60px;
     width: 100%;
     position: relative;
     float: left;
   }
-  .ul-left-align3{
+  .ul-left-align3 {
     height: 60px;
     width: 50px;
     position: relative;
     text-align: center;
     margin: 0 auto;
   }
-  #left-github{
+  #left-github {
     padding-top: 130px;
   }
-  .at{
+  .at {
     width: 45px;
     height: 45px;
     margin-left: 12px;
   }
-
-  header{
+  header {
     padding-top: 170px;
     padding-bottom: 170px;
   }
+
+  #projects-box {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 50% 50%;
+    column-gap: 50px;
+    row-gap: 20px;
+  }
+
   a.image {
-    width:15rem; /*width of your image*/
-    height:6rem; /*height of your image*/
-    border : 1px solid black;
-    padding: 0;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 15px;
   }
   a.image2 {
-      content: url(https://i.ibb.co/QMQ24Rg/minimo.png); 
-      width:15rem; /*width of your image*/
-      height:6rem; /*height of your image*/
-      border : 1px solid black;
-      padding: 2em;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 15px;
   }
-
+  a.image3 {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 15px;
+  }
+  a.image4 {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 15px;
+  }
 }
-
